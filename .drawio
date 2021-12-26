@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="Qz1UC58JT_ZQaD0i4uoz" name="Page-1">
-        <mxGraphModel dx="787" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="787" dy="353" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -60,8 +60,8 @@
                         </Array>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="31" value="Увеличить счетчик j на один;&lt;br&gt;&lt;br&gt;Увеличить размер массива В на один;&lt;br&gt;&lt;br&gt;Записываем число A[i] в ячейку в массив В[j]&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-                    <mxGeometry x="610" y="360" width="152.5" height="120" as="geometry"/>
+                <mxCell id="31" value="Увеличить счетчик j на один;&lt;br&gt;&lt;br&gt;Увеличить размер массива В на один;&lt;br&gt;&lt;br&gt;Записываем число A[i] в ячейку в массивa В[j]" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="620" y="360" width="152.5" height="120" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="да" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="24">
                     <mxGeometry relative="1" as="geometry">
