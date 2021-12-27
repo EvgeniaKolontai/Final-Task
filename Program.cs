@@ -9,7 +9,7 @@ int[] FillArray()
    
     return array;
 }
-(int[], int[]) Dev2(int[] ArrayA)
+int[] Dev2(int[] ArrayA)
 {
     int[] ArrayB = new int[0];
     int j = 0;
@@ -25,9 +25,9 @@ int[] FillArray()
         }
 
     }
-    return (ArrayB, ArrayA); 
+    return (ArrayB); 
 }
-void WriteArray(int[] ArrayB, int[] ArrayA)
+void WriteArray(int[] ArrayA, int[] ArrayB)
 
 {
     Console.Write("[");
@@ -50,4 +50,5 @@ void WriteArray(int[] ArrayB, int[] ArrayA)
     }
     Console.WriteLine("]");
 }
-WriteArray(Dev2(FillArray());
+int[] ArrayA = FillArray();
+WriteArray(ArrayA, Dev2(ArrayA));
